@@ -4073,22 +4073,22 @@ input, select, textarea {
 
 	/* Style the accordion panel. Note: hidden by default */
 	.panel {
-	padding: 0 18px;
-	background-color: white;
-	width: 79%;
-	margin: auto;
-	max-height: 0;
-	overflow: hidden;
-	transition: max-height 0.2s ease-out;
+		padding: 0 18px;
+		background-color: white;
+		width: 79%;
+		margin: auto;
+		max-height: 0;
+		overflow: hidden;
+		transition: max-height 0.2s ease-out;
 	} 
 
-	/* Custom Styling */
+	/* Team Page */
 	#accordion-students {
-	margin-top: 1em;
-	background-color: #9bf1ff;
-	border-radius: 1em;
-	border-color: aqua;
-	color: black;
+		margin-top: 1em;
+		background-color: #9bf1ff;
+		border-radius: 1em;
+		border-color: aqua;
+		color: black;
 	}
 
 	.student-picture {
@@ -4109,3 +4109,38 @@ input, select, textarea {
 		border-top: 8px solid #bbb;
   		border-radius: 5px;
 	}
+
+	/* Sponsors Page */
+	#accordion-sponsor {
+		width: 90%;
+		margin-top: 1em;
+		background-color: #fad457;
+		border-radius: 1em;
+		border-color: rgb(255, 253, 250);
+		color: black;
+		}
+	.sponsor {
+		background-color: rgb(253, 253, 253);
+	}
+	.sponsor-field {
+		margin-top: 0.5em;
+		margin-bottom: 0.5em;
+	}	
+	.sponsor-entry {
+		background-color: bisque !important;/* lobster BISQUE */
+		border-radius: 1em !important;
+		border-color: coral !important;
+	}
+
+	#sponsor-submit {
+		clear: both;
+		background-color: black;
+		width: 60%;
+		height: 20%;
+		text-align: center;
+		margin: 1em auto;
+		display: block;
+		
+	}
+
+	
