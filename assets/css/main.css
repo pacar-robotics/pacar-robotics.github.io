@@ -2217,6 +2217,65 @@ input, select, textarea {
 
 			}
 
+/* Video */
+
+	.video {
+		border: 0;
+		display: inline-block;
+		position: relative;
+	}
+
+		.video img {
+			display: block;
+		}
+
+		.video.left, .video.right {
+			max-width: 30%;
+		}
+
+			.video.left img, .video.right img {
+				width: 100%;
+			}
+
+		.video.left {
+			float: left;
+			margin: 0;
+			top: 0;
+		}
+
+		.video.right {
+			float: right;
+			margin: 0;
+			top: 0;
+		}
+
+		.video.fit {
+			display: block;
+			margin: 0;
+		}
+
+			.video.fit img {
+				width: 100%;
+			}
+
+		.video.main {
+			display: block;
+			margin: 2.5em 0;
+			width: 100%;
+		}
+
+			.video.main img {
+				width: 100%;
+			}
+
+			@media screen and (max-width: 736px) {
+
+				.video.main {
+					margin: 1.5em 0;
+				}
+
+			}
+
 /* List */
 
 	ol {
@@ -2901,7 +2960,7 @@ input, select, textarea {
 		}
 
 /* Contact Method */
-
+	
 	.contact-method {
 		margin: 0 0 2em 0;
 		padding-left: 3.25em;
@@ -3380,7 +3439,6 @@ input, select, textarea {
 		-webkit-align-items: center;
 		-ms-align-items: center;
 		align-items: center;
-		background-image: url("../../images/banner.jpg");
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
@@ -3410,12 +3468,12 @@ input, select, textarea {
 			-ms-transition-delay: 0.75s;
 			transition-delay: 0.75s;
 			pointer-events: none;
-			background-color: #82ce88;
+			background-color: #b1b4b1;
 			content: '';
 			display: block;
 			height: 100%;
 			left: 0;
-			opacity: 0.85;
+			opacity: 0.9;
 			position: absolute;
 			top: 0;
 			width: 100%;
@@ -3476,7 +3534,6 @@ input, select, textarea {
 				#banner > .inner .content p {
 					font-size: 0.7em;
 					font-weight: 600;
-					letter-spacing: 0.25em;
 					text-transform: uppercase;
 				}
 
@@ -3528,6 +3585,32 @@ input, select, textarea {
 			-ms-transform: translateX(-0.5em);
 			transform: translateX(-0.5em);
 			opacity: 0;
+		}
+
+		
+		#banner video {
+			width: 100%;
+			height: 100%;
+			position: absolute;
+			object-fit: cover;
+			z-index: 0;
+		}
+
+		#banner h2 {
+			z-index: 1;
+			font-size: 10em;
+			position: relative;
+			color: #0f0f0f;
+			margin-bottom: 0;
+		}
+
+		#banner p {
+			z-index: 1;
+			font-size: 1em;
+			position: relative;
+			color: #0f0f0f;
+			margin-left: 1em;
+			padding: auto;
 		}
 
 		@media screen and (max-width: 1280px) {
@@ -3622,12 +3705,15 @@ input, select, textarea {
 			border-bottom: solid 1px rgba(212, 212, 255, 0.1);
 		}
 
+
+
 /* Contact */
 
 	#contact {
 		border-bottom: solid 1px rgba(212, 212, 255, 0.1);
 		background-color:rgba(36, 41, 67, 0.9);
 		overflow-x: hidden;
+		margin-top: 3em;
 	}
 
 		#contact > .inner {
@@ -3955,3 +4041,71 @@ input, select, textarea {
 			opacity: 1;
 			visibility: visible;
 		}
+
+/* Chinmay's Miscallaneous Stuff! */
+/* Subheading image for team page */
+	.subheading { 
+	width: 100%;
+	height: 20em; 	
+	margin: auto;
+	}
+
+	/* Accordion dropdown for team page */
+	.accordion {
+	background-color: #eee;
+	color: #444;
+	cursor: pointer;
+	padding: auto;
+	margin: auto;
+	width: 80%;
+	text-align: center;
+	border: none;
+	outline: none;
+	position: relative;
+	display: block;
+	transition: 0.4s;
+	}
+
+	/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+	.active, .accordion:hover {
+	background-color: #ccc;
+	}
+
+	/* Style the accordion panel. Note: hidden by default */
+	.panel {
+	padding: 0 18px;
+	background-color: white;
+	width: 79%;
+	margin: auto;
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 0.2s ease-out;
+	} 
+
+	/* Custom Styling */
+	#accordion-students {
+	margin-top: 1em;
+	background-color: #9bf1ff;
+	border-radius: 1em;
+	border-color: aqua;
+	color: black;
+	}
+
+	.student-picture {
+		width: 30%;
+		min-width: 200px;
+		float: right;
+	}
+
+	.student-name {
+		font-size: 8em;
+		margin-bottom: 0;
+	}
+
+	.student-bio {
+		font-size: 1em;
+	}
+	.student-divider {
+		border-top: 8px solid #bbb;
+  		border-radius: 5px;
+	}
