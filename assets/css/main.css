@@ -4143,4 +4143,21 @@ input, select, textarea {
 		
 	}
 
+	#gold-tier {
+		width: 80%;
+		height: 20%;
+		margin: 0 auto;
+		display: block;
+	}
+
+	#sponsor-gold-tier {
+		margin: 0 auto;
+		display: block;
+	}
+
+	.sponsor-logo {
+		margin: 0 auto;	
+		display: block;
+	}
+
 	
