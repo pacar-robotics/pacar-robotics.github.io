@@ -4160,4 +4160,33 @@ input, select, textarea {
 		display: block;
 	}
 
+	/* Resources Page */
+	.resources h3 {
+		font-size: 2em;
+	}
+	.resources p {
+		font-size: 1em;	
+	}
+
+	.resources #gm0 {
+		background-image: url("../images/resources/gm0.png");
+		background-size: cover;
+		width: 25em;
+		height: 15em;
+		float: right;
+		box-shadow: 0 0 0.5em 0.5em white inset;
+	}
+
+	.resources #ftcdiscord {
+		background-image: url("../images/resources/ftcdiscord.png");
+		background-size: cover;
+		width: 25em;
+		height: 15em;
+		float: right;
+		box-shadow: 0 0 0.5em 0.5em black inset;
+	}
+
+	.resources p {
+		margin-bottom: 6em;
+	}
 	
