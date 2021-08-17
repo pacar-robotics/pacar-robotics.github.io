@@ -1,0 +1,22 @@
+{
+    "blog":[
+       {
+          "title":"Test Post 1",
+          "image":"assets/images/blog/test1.png",
+          "description":"This is the first test post, for testing purposes.",
+          "url":"blog/post1.html"
+       },
+       {
+          "title":"Test Post 2",
+          "image":"assets/images/blog/test2.png",
+          "description":"This is the second test post, for testing purposes.",
+          "url":"blog/post2.html"
+       },
+       {
+          "title":"Test Post 3",
+          "image":"assets/images/blog/test2.png",
+          "description":"This is the third test post, for testing purposes.",
+          "url":"blog/post2.html"
+       }
+    ]
+ }
