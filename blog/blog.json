@@ -1,10 +1,10 @@
 {
     "blog":[
        {
-          "title":"Test Post 1",
-          "image":"assets/images/blog/test1.png",
-          "description":"This is the first test post, for testing purposes.",
-          "url":"blog/post1.html"
+          "title":"The Driver Hub",
+          "image":"assets/images/blog/driverhub/driverhub.png",
+          "description":"Learn about the new REV Driver Hub!",
+          "url":"blog_driverhub.html"
        },
        {
           "title":"Test Post 2",
